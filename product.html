@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Produse</title>
+
+    <!--font awesome cdn link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--custom css file link-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--header section starts-->
+    <header class="header">
+      <a href="home.html" class="logo"
+        ><i class="fas fa-shopping-basket"></i>Garden Bio</a
+      >
+
+      <nav class="navbar">
+        <a href="home.html">Acasa</a>
+        <a href="category.html">Categorii</a>
+        <a href="product.html">Produse</a>
+        <a href="about.html">Despre Noi</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+      </div>
+
+      <form action="" class="search-box">
+        <input type="search" id="search-box" placeholder="Cauta un produs" />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <form action="" class="login-form">
+        <h3>Login</h3>
+        <input
+          type="email"
+          placeholder="Introduceti adresa de e-mail"
+          class="box"
+        />
+        <input type="password" placeholder="Introduceti parola" class="box" />
+        <div class="remember">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">Remember me</label>
+        </div>
+        <input type="submit" value="Login" class="btn" />
+        <p>Ati uitat parola? <a href="#">Click aici</a></p>
+        <p>Nu aveti cont? <a href="#">Creati cont</a></p>
+      </form>
+    </header>
+    <!--header section ends-->
+
+    <!--footer section starts-->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="logo"
+            ><i class="fas fa-shopping-basket"></i>Garden Bio</a
+          >
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            consectetur aperiam sed, dolorem magnam sequi inventore harum, autem
+            vitae in consequatur accusantium quidem totam dolor voluptates
+            delectus. Similique, totam at.
+          </p>
+          <div class="share">
+            <a href="#" class="btn fab fa-facebook-f"></a>
+            <a href="#" class="btn fab fa-twitter"></a>
+            <a href="#" class="btn fab fa-instagram"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Adresa</h3>
+          <div class="address">
+            <p>Comuna Cicanesti, judetul Arges</p>
+            <p><i>Telefon:</i> <b>0742326875</b></p>
+            <p><i>Email:</i> <b>adriancatalan220@gmail.com</b></p>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Linkuri</h3>
+          <div class="links">
+            <a href="#"><i class="fas fa-arrow-right"></i>Acasa</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>Categorii</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>Produse</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>Despre Noi</a>
+            <a href="#"><i class="fas fa-arrow-right"></i>Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer section ends-->
+
+    <!--custom js file link-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
