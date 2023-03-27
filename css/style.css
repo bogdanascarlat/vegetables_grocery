@@ -1067,6 +1067,164 @@ body {
 }
 /*about page -  ends*/
 
+/*review page -  starts*/
+.info-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+  gap: 1.5rem;
+}
+
+.info-container .info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.info-container .info img {
+  height: 7rem;
+}
+
+.info-container .info .content h3 {
+  font-size: 2rem;
+  color: var(--black);
+  padding-bottom: 0.5rem;
+}
+
+.info-container .info .content span {
+  font-size: 1.5rem;
+  color: var(--black);
+  color: #999;
+}
+
+.review {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 1.5rem;
+}
+
+.review .box {
+  padding: 2rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+
+.review .box .user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.review .box .user img {
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+}
+
+.review .box .user h3 {
+  font-size: 2.2rem;
+  color: var(--black);
+}
+
+.review .box .user span {
+  font-size: 1.4rem;
+  color: var(--green);
+}
+
+.review .box p {
+  font-size: 1.4rem;
+  color: #999;
+  line-height: 2;
+}
+/*review page -  ends*/
+
+/*contact page -  starts*/
+.contact .icons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(29rem, 1fr));
+  gap: 1.5rem;
+}
+
+.contact .icons-container .icons {
+  text-align: center;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.contact .icons-container .icons i {
+  height: 6rem;
+  width: 6rem;
+  line-height: 6rem;
+  font-size: 2.5rem;
+  background: var(--green);
+  color: white;
+  border-radius: 50%;
+}
+
+.contact .icons-container .icons h3 {
+  color: #333;
+  font-size: 2rem;
+  padding: 1rem 0;
+}
+
+.contact .icons-container .icons p {
+  color: #999;
+  font-size: 1.5rem;
+  line-height: 2;
+}
+
+.contact .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.contact .row form {
+  padding: 2rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  flex: 1 1 40rem;
+}
+
+.contact .row form h3 {
+  font-size: 2.5rem;
+  padding-bottom: 1rem;
+  color: #333;
+}
+
+.contact .row form .inputBox {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact .row form .inputBox input {
+  width: 49%;
+}
+
+.contact .row form .inputBox .box,
+textarea {
+  padding: 1rem 1.2rem;
+  font-size: 1.6rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  color: #333;
+  text-transform: none;
+  margin: 0.7rem 0;
+}
+
+.contact .row form .inputBox textarea {
+  width: 100%;
+  height: 15rem;
+  resize: none;
+}
+
+.contact .row .map {
+  flex: 1 1 40rem;
+  width: 100%;
+}
+
+/*contact page -  ends*/
+
 /*media queries*/
 @media (max-width: 1200px) {
   html {
@@ -1207,6 +1365,10 @@ body {
 
   .slider-box .slides-container .slide .content p {
     font-size: 2rem;
+  }
+
+  .contact .row form .inputBox input {
+    width: 100%;
   }
 
   .heading {
